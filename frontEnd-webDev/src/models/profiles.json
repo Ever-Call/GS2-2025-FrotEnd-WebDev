@@ -1,0 +1,1670 @@
+// Modelo de Perfil
+// id:'',
+// nome:'',
+// foto:'',
+// cargo:'',
+// resumo:'',
+// localizacao:'',
+// area:'',
+// habilidadesTecnicas: [], 
+// softSkills:[], 
+// experiencias: [{}], 
+// formacao:[{}], 
+// projetos:[{}], 
+// certificacoes: [], 
+// idiomas:[{}], 
+// areaInteresses:[]
+
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva Santos",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Especialista em desenvolvimento web moderno",
+    "localizacao": "São Paulo/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": ["JavaScript", "React", "Node.js", "MongoDB", "AWS"],
+    "softSkills": ["Trabalho em equipe", "Comunicação", "Resolução de problemas"],
+    "experiencias": [
+      {"empresa": "Tech Solutions", "cargo": "Desenvolvedora Sênior", "inicio": "2021-03", "fim": "2024-11", "descricao": "Desenvolvimento de aplicações web escaláveis"},
+      {"empresa": "StartupX", "cargo": "Desenvolvedora Júnior", "inicio": "2019-01", "fim": "2021-02", "descricao": "Manutenção e criação de features"}
+    ],
+    "formacao": [
+      {"curso": "Bacharelado em Ciência da Computação", "instituicao": "USP", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "E-commerce Platform", "link": "https://github.com/ana/ecommerce", "descricao": "Plataforma completa de vendas online"}
+    ],
+    "certificacoes": ["AWS Certified Developer", "MongoDB Professional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Cloud Computing", "Arquitetura de Software", "DevOps"]
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Eduardo Oliveira",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Gerente de Projetos",
+    "resumo": "Líder ágil com foco em resultados",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Jira", "MS Project", "Agile", "Kanban"],
+    "softSkills": ["Liderança", "Negociação", "Gestão de conflitos"],
+    "experiencias": [
+      {"empresa": "Consultoria ABC", "cargo": "Gerente de Projetos", "inicio": "2020-06", "fim": "2024-11", "descricao": "Gestão de projetos de transformação digital"},
+      {"empresa": "Empresa Beta", "cargo": "Coordenador", "inicio": "2017-03", "fim": "2020-05", "descricao": "Coordenação de equipes multidisciplinares"}
+    ],
+    "formacao": [
+      {"curso": "MBA em Gestão de Projetos", "instituicao": "FGV", "ano": 2019},
+      {"curso": "Engenharia de Produção", "instituicao": "UFRJ", "ano": 2016}
+    ],
+    "projetos": [
+      {"titulo": "Transformação Digital Banco X", "link": "https://linkedin.com/in/carlos", "descricao": "Migração de sistemas legados"}
+    ],
+    "certificacoes": ["PMP", "Scrum Master", "SAFe Agilist"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Metodologias Ágeis", "Transformação Digital", "Inovação"]
+  },
+  {
+    "id": 3,
+    "nome": "Marina Costa Lima",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Criando experiências centradas no usuário",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "Sketch", "Photoshop", "HTML/CSS"],
+    "softSkills": ["Criatividade", "Empatia", "Pensamento crítico"],
+    "experiencias": [
+      {"empresa": "Design Studio", "cargo": "UX Designer Sênior", "inicio": "2022-01", "fim": "2024-11", "descricao": "Design de interfaces para apps mobile"},
+      {"empresa": "Agência Digital", "cargo": "UI Designer", "inicio": "2019-06", "fim": "2021-12", "descricao": "Criação de identidades visuais"}
+    ],
+    "formacao": [
+      {"curso": "Design Gráfico", "instituicao": "UFMG", "ano": 2019},
+      {"curso": "UX Design Specialization", "instituicao": "Coursera", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "App Saúde+", "link": "https://behance.net/marina", "descricao": "Redesign completo de aplicativo de saúde"}
+    ],
+    "certificacoes": ["Google UX Design Certificate", "Nielsen Norman Group UX"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Design Systems", "Acessibilidade", "Design Thinking"]
+  },
+  {
+    "id": 4,
+    "nome": "Rafael Mendes Costa",
+    "foto": "./images/foto4.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Transformando dados em insights estratégicos",
+    "localizacao": "Campinas/SP",
+    "area": "Data Science",
+    "habilidadesTecnicas": ["Python", "R", "SQL", "Machine Learning", "TensorFlow", "Pandas"],
+    "softSkills": ["Pensamento analítico", "Comunicação", "Curiosidade"],
+    "experiencias": [
+      {"empresa": "Data Corp", "cargo": "Cientista de Dados Sênior", "inicio": "2021-08", "fim": "2024-11", "descricao": "Desenvolvimento de modelos preditivos"},
+      {"empresa": "Analytics Inc", "cargo": "Analista de Dados", "inicio": "2019-02", "fim": "2021-07", "descricao": "Análise exploratória e visualização"}
+    ],
+    "formacao": [
+      {"curso": "Mestrado em Estatística", "instituicao": "UNICAMP", "ano": 2019},
+      {"curso": "Matemática", "instituicao": "UNICAMP", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Previsão de Demanda", "link": "https://github.com/rafael/demand", "descricao": "Sistema de ML para previsão de vendas"}
+    ],
+    "certificacoes": ["AWS Machine Learning Specialty", "Google Data Analytics"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Deep Learning", "NLP", "Big Data"]
+  },
+  {
+    "id": 5,
+    "nome": "Juliana Rodrigues Alves",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Estrategista digital focada em performance",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Ads", "Facebook Ads", "SEO", "Google Analytics", "Hotjar"],
+    "softSkills": ["Criatividade", "Análise de dados", "Storytelling"],
+    "experiencias": [
+      {"empresa": "Agência Viral", "cargo": "Analista de Marketing Pleno", "inicio": "2020-04", "fim": "2024-11", "descricao": "Gestão de campanhas digitais"},
+      {"empresa": "E-commerce XYZ", "cargo": "Assistente de Marketing", "inicio": "2018-07", "fim": "2020-03", "descricao": "Criação de conteúdo e gestão de redes"}
+    ],
+    "formacao": [
+      {"curso": "Publicidade e Propaganda", "instituicao": "PUCRS", "ano": 2018},
+      {"curso": "Marketing Digital", "instituicao": "ESPM", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Campanha Lançamento Produto X", "link": "https://portfolio.juliana.com", "descricao": "Estratégia 360° com ROI de 300%"}
+    ],
+    "certificacoes": ["Google Ads Certified", "HubSpot Content Marketing", "Meta Blueprint"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"},
+      {"idioma": "Francês", "nivel": "Básico"}
+    ],
+    "areaInteresses": ["Growth Hacking", "Inbound Marketing", "Analytics"]
+  },
+  {
+    "id": 6,
+    "nome": "Pedro Henrique Santos",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Engenheiro DevOps",
+    "resumo": "Automatizando processos e otimizando infraestrutura",
+    "localizacao": "Florianópolis/SC",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Docker", "Kubernetes", "Jenkins", "Terraform", "AWS", "Linux"],
+    "softSkills": ["Resolução de problemas", "Trabalho sob pressão", "Proatividade"],
+    "experiencias": [
+      {"empresa": "CloudTech", "cargo": "DevOps Engineer", "inicio": "2021-05", "fim": "2024-11", "descricao": "Implementação de CI/CD pipelines"},
+      {"empresa": "Hosting Brasil", "cargo": "Administrador de Sistemas", "inicio": "2018-09", "fim": "2021-04", "descricao": "Gerenciamento de servidores"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia de Software", "instituicao": "UFSC", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Infraestrutura as Code", "link": "https://github.com/pedro/iac", "descricao": "Templates Terraform para AWS"}
+    ],
+    "certificacoes": ["AWS Solutions Architect", "Certified Kubernetes Administrator", "Docker Certified"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Cloud Native", "Automação", "SRE"]
+  },
+  {
+    "id": 7,
+    "nome": "Fernanda Oliveira Souza",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Psicóloga Organizacional",
+    "resumo": "Desenvolvimento humano e cultura organizacional",
+    "localizacao": "Brasília/DF",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["Avaliação psicológica", "Coaching", "Recrutamento", "Treinamento"],
+    "softSkills": ["Empatia", "Escuta ativa", "Mediação de conflitos"],
+    "experiencias": [
+      {"empresa": "Empresa Consulta", "cargo": "Psicóloga Organizacional", "inicio": "2020-02", "fim": "2024-11", "descricao": "Programas de desenvolvimento e bem-estar"},
+      {"empresa": "RH Estratégico", "cargo": "Analista de RH", "inicio": "2017-06", "fim": "2020-01", "descricao": "Recrutamento e seleção"}
+    ],
+    "formacao": [
+      {"curso": "Mestrado em Psicologia Organizacional", "instituicao": "UnB", "ano": 2020},
+      {"curso": "Psicologia", "instituicao": "UnB", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Programa Saúde Mental", "link": "https://linkedin.com/in/fernanda", "descricao": "Implantação de programa corporativo"}
+    ],
+    "certificacoes": ["Coach Profissional ICI", "Avaliação DISC"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Saúde Mental", "Diversidade", "Desenvolvimento de Liderança"]
+  },
+  {
+    "id": 8,
+    "nome": "Lucas Ferreira Gomes",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Arquiteto de Software",
+    "resumo": "Projetando sistemas escaláveis e resilientes",
+    "localizacao": "Curitiba/PR",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": ["Java", "Spring", "Microservices", "DDD", "Event Sourcing", "Kafka"],
+    "softSkills": ["Visão estratégica", "Comunicação técnica", "Mentoria"],
+    "experiencias": [
+      {"empresa": "Enterprise Solutions", "cargo": "Arquiteto de Software", "inicio": "2022-03", "fim": "2024-11", "descricao": "Arquitetura de sistemas distribuídos"},
+      {"empresa": "SoftDev", "cargo": "Desenvolvedor Sênior", "inicio": "2018-01", "fim": "2022-02", "descricao": "Desenvolvimento backend"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia de Computação", "instituicao": "UTFPR", "ano": 2017},
+      {"curso": "MBA em Arquitetura de Software", "instituicao": "FIAP", "ano": 2021}
+    ],
+    "projetos": [
+      {"titulo": "Sistema Bancário Distribuído", "link": "https://github.com/lucas/bank", "descricao": "Arquitetura de microserviços"}
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "Oracle Certified Professional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Arquitetura Limpa", "DDD", "Event-Driven Architecture"]
+  },
+  {
+    "id": 9,
+    "nome": "Beatriz Almeida Costa",
+    "foto": "./images/foto9.jpg",
+    "cargo": "Product Owner",
+    "resumo": "Conectando necessidades do negócio com tecnologia",
+    "localizacao": "Recife/PE",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Jira", "Product Discovery", "Roadmapping", "Métricas", "A/B Testing"],
+    "softSkills": ["Negociação", "Priorização", "Visão de produto"],
+    "experiencias": [
+      {"empresa": "Fintech Solutions", "cargo": "Product Owner", "inicio": "2021-07", "fim": "2024-11", "descricao": "Gestão de produto digital"},
+      {"empresa": "Startup Inovadora", "cargo": "Product Manager Junior", "inicio": "2019-04", "fim": "2021-06", "descricao": "Definição de features"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "UFPE", "ano": 2019},
+      {"curso": "Product Management", "instituicao": "PM3", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "App de Investimentos", "link": "https://portfolio.beatriz.com", "descricao": "Produto com 100k usuários ativos"}
+    ],
+    "certificacoes": ["CSPO", "Product Management Certificate"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Product Led Growth", "User Research", "Data-Driven"]
+  },
+  {
+    "id": 10,
+    "nome": "Rodrigo Silva Pereira",
+    "foto": "./images/foto10.jpg",
+    "cargo": "Especialista em Cibersegurança",
+    "resumo": "Protegendo ativos digitais contra ameaças",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança da Informação",
+    "habilidadesTecnicas": ["Pentesting", "SIEM", "Firewall", "IDS/IPS", "Python", "Kali Linux"],
+    "softSkills": ["Atenção aos detalhes", "Pensamento analítico", "Ética"],
+    "experiencias": [
+      {"empresa": "SecureIT", "cargo": "Analista de Segurança Sênior", "inicio": "2020-09", "fim": "2024-11", "descricao": "Testes de invasão e resposta a incidentes"},
+      {"empresa": "Bank Security", "cargo": "Analista SOC", "inicio": "2018-03", "fim": "2020-08", "descricao": "Monitoramento de ameaças"}
+    ],
+    "formacao": [
+      {"curso": "Segurança da Informação", "instituicao": "FIAP", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Framework de Pentest", "link": "https://github.com/rodrigo/pentest", "descricao": "Ferramenta automatizada de testes"}
+    ],
+    "certificacoes": ["CEH", "OSCP", "CISSP"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Ethical Hacking", "Threat Intelligence", "Forense Digital"]
+  },
+  {
+    "id": 11,
+    "nome": "Camila Martins Rocha",
+    "foto": "./images/foto11.jpg",
+    "cargo": "Analista de Business Intelligence",
+    "resumo": "Transformando dados em decisões estratégicas",
+    "localizacao": "Salvador/BA",
+    "area": "Inteligência de Negócios",
+    "habilidadesTecnicas": ["Power BI", "Tableau", "SQL", "DAX", "ETL"],
+    "softSkills": ["Visão de negócio", "Comunicação", "Storytelling com dados"],
+    "experiencias": [
+      {"empresa": "Retail Analytics", "cargo": "Analista BI Pleno", "inicio": "2021-01", "fim": "2024-11", "descricao": "Desenvolvimento de dashboards gerenciais"},
+      {"empresa": "Consultoria Data", "cargo": "Analista BI Júnior", "inicio": "2019-05", "fim": "2020-12", "descricao": "Análise de dados e relatórios"}
+    ],
+    "formacao": [
+      {"curso": "Estatística", "instituicao": "UFBA", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Dashboard Executivo", "link": "https://portfolio.camila.com", "descricao": "Painel integrado de KPIs corporativos"}
+    ],
+    "certificacoes": ["Microsoft Power BI Data Analyst", "Tableau Desktop Specialist"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Data Visualization", "Analytics", "Big Data"]
+  },
+  {
+    "id": 12,
+    "nome": "Thiago Henrique Lima",
+    "foto": "./images/foto12.jpg",
+    "cargo": "Desenvolvedor Mobile",
+    "resumo": "Criando apps nativos e híbridos",
+    "localizacao": "Fortaleza/CE",
+    "area": "Desenvolvimento Mobile",
+    "habilidadesTecnicas": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"],
+    "softSkills": ["Autodidatismo", "Trabalho remoto", "Adaptabilidade"],
+    "experiencias": [
+      {"empresa": "Mobile First", "cargo": "Desenvolvedor Mobile Sênior", "inicio": "2020-11", "fim": "2024-11", "descricao": "Desenvolvimento de apps iOS e Android"},
+      {"empresa": "App Factory", "cargo": "Desenvolvedor Mobile", "inicio": "2018-06", "fim": "2020-10", "descricao": "Manutenção de aplicativos"}
+    ],
+    "formacao": [
+      {"curso": "Sistemas de Informação", "instituicao": "UFC", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "App Delivery", "link": "https://github.com/thiago/delivery", "descricao": "App de entregas com 50k downloads"}
+    ],
+    "certificacoes": ["Google Associate Android Developer"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Cross-platform", "Performance", "UX Mobile"]
+  },
+  {
+    "id": 13,
+    "nome": "Amanda Cristina Souza",
+    "foto": "./images/foto13.jpg",
+    "cargo": "Consultora de Vendas B2B",
+    "resumo": "Especialista em vendas consultivas complexas",
+    "localizacao": "São Paulo/SP",
+    "area": "Vendas",
+    "habilidadesTecnicas": ["Salesforce", "LinkedIn Sales Navigator", "SPIN Selling", "Cold Call"],
+    "softSkills": ["Persuasão", "Networking", "Resiliência"],
+    "experiencias": [
+      {"empresa": "SaaS Enterprise", "cargo": "Account Executive", "inicio": "2021-04", "fim": "2024-11", "descricao": "Vendas B2B de software empresarial"},
+      {"empresa": "Tech Solutions", "cargo": "SDR", "inicio": "2019-08", "fim": "2021-03", "descricao": "Prospecção e qualificação de leads"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "Mackenzie", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Pipeline de Vendas Estruturado", "link": "https://linkedin.com/in/amanda", "descricao": "Metodologia que aumentou conversão em 45%"}
+    ],
+    "certificacoes": ["Salesforce Administrator", "Challenger Sale Methodology"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Sales Enablement", "Negociação", "Account Based Selling"]
+  },
+  {
+    "id": 14,
+    "nome": "Gabriel Costa Almeida",
+    "foto": "./images/foto14.jpg",
+    "cargo": "Engenheiro de Dados",
+    "resumo": "Construindo pipelines de dados escaláveis",
+    "localizacao": "Brasília/DF",
+    "area": "Engenharia de Dados",
+    "habilidadesTecnicas": ["Python", "Spark", "Airflow", "SQL", "Snowflake", "dbt"],
+    "softSkills": ["Resolução de problemas", "Organização", "Documentação"],
+    "experiencias": [
+      {"empresa": "Data Platform", "cargo": "Engenheiro de Dados Sênior", "inicio": "2021-06", "fim": "2024-11", "descricao": "Arquitetura de data lakes e warehouses"},
+      {"empresa": "Analytics Corp", "cargo": "Engenheiro de Dados", "inicio": "2019-02", "fim": "2021-05", "descricao": "ETL e integração de dados"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia da Computação", "instituicao": "UnB", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Data Pipeline Framework", "link": "https://github.com/gabriel/pipeline", "descricao": "Framework open source para ETL"}
+    ],
+    "certificacoes": ["Google Professional Data Engineer", "Databricks Certified"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Data Architecture", "Real-time Processing", "Data Quality"]
+  },
+  {
+    "id": 15,
+    "nome": "Mariana Fonseca Dias",
+    "foto": "./images/foto15.jpg",
+    "cargo": "Redatora de Conteúdo",
+    "resumo": "Contando histórias que engajam e convertem",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Conteúdo",
+    "habilidadesTecnicas": ["SEO Writing", "WordPress", "Copywriting", "Google Trends", "Semrush"],
+    "softSkills": ["Criatividade", "Pesquisa", "Adaptabilidade"],
+    "experiencias": [
+      {"empresa": "Agência de Conteúdo", "cargo": "Redatora Sênior", "inicio": "2020-07", "fim": "2024-11", "descricao": "Produção de conteúdo estratégico"},
+      {"empresa": "Blog Corporativo", "cargo": "Redatora", "inicio": "2018-03", "fim": "2020-06", "descricao": "Artigos e posts para blog"}
+    ],
+    "formacao": [
+      {"curso": "Jornalismo", "instituicao": "PUC-Rio", "ano": 2018},
+      {"curso": "Marketing de Conteúdo", "instituicao": "Rock University", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Blog de Tecnologia", "link": "https://blog.mariana.com", "descricao": "Blog próprio com 10k visitas mensais"}
+    ],
+    "certificacoes": ["HubSpot Content Marketing", "SEO Copywriting Certificate"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Content Strategy", "SEO", "Brand Storytelling"]
+  },
+  {
+    "id": 16,
+    "nome": "Bruno Cardoso Nunes",
+    "foto": "./images/foto16.jpg",
+    "cargo": "Analista de Qualidade (QA)",
+    "resumo": "Garantindo qualidade e confiabilidade de software",
+    "localizacao": "Curitiba/PR",
+    "area": "Qualidade de Software",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "JMeter", "Postman", "SQL", "Jenkins"],
+    "softSkills": ["Atenção aos detalhes", "Metodologia", "Comunicação"],
+    "experiencias": [
+      {"empresa": "Software Quality", "cargo": "QA Engineer", "inicio": "2020-05", "fim": "2024-11", "descricao": "Automação de testes e QA de APIs"},
+      {"empresa": "Testing Services", "cargo": "QA Analyst", "inicio": "2018-09", "fim": "2020-04", "descricao": "Testes manuais e funcionais"}
+    ],
+    "formacao": [
+      {"curso": "Análise de Sistemas", "instituicao": "UTFPR", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Framework de Testes", "link": "https://github.com/bruno/qa-framework", "descricao": "Framework de automação de testes"}
+    ],
+    "certificacoes": ["ISTQB Foundation", "Certified Selenium Tester"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Test Automation", "CI/CD", "Performance Testing"]
+  },
+  {
+    "id": 17,
+    "nome": "Larissa Mendes Barbosa",
+    "foto": "./images/foto17.jpg",
+    "cargo": "Especialista em E-commerce",
+    "resumo": "Otimizando conversão e experiência de compra",
+    "localizacao": "São Paulo/SP",
+    "area": "E-commerce",
+    "habilidadesTecnicas": ["Shopify", "WooCommerce", "Google Analytics", "CRO", "Merchandising"],
+    "softSkills": ["Visão de negócio", "Multitarefa", "Análise de dados"],
+    "experiencias": [
+      {"empresa": "Loja Virtual Grande", "cargo": "E-commerce Manager", "inicio": "2021-03", "fim": "2024-11", "descricao": "Gestão completa de e-commerce"},
+      {"empresa": "Marketplace ABC", "cargo": "Analista E-commerce", "inicio": "2019-01", "fim": "2021-02", "descricao": "Operação e marketing digital"}
+    ],
+    "formacao": [
+      {"curso": "Marketing", "instituicao": "ESPM", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Otimização de Conversão", "link": "https://portfolio.larissa.com", "descricao": "Aumento de 60% na taxa de conversão"}
+    ],
+    "certificacoes": ["Google Analytics", "Facebook Blueprint"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["CRO", "Omnichannel", "Marketplace Management"]
+  },
+  {
+    "id": 18,
+    "nome": "Felipe Augusto Ribeiro",
+    "foto": "./images/foto18.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Análise financeira e planejamento estratégico",
+    "localizacao": "São Paulo/SP",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["Excel Avançado", "Power BI", "VBA", "SAP", "Modelagem Financeira"],
+    "softSkills": ["Pensamento analítico", "Organização", "Precisão"],
+    "experiencias": [
+      {"empresa": "Banco Internacional", "cargo": "Analista Financeiro Sênior", "inicio": "2020-08", "fim": "2024-11", "descricao": "Análise de investimentos e M&A"},
+      {"empresa": "Consultoria Financeira", "cargo": "Analista Financeiro", "inicio": "2018-02", "fim": "2020-07", "descricao": "Valuation e due diligence"}
+    ],
+    "formacao": [
+      {"curso": "Economia", "instituicao": "FEA-USP", "ano": 2017},
+      {"curso": "MBA Finanças", "instituicao": "Insper", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "Modelo de Valuation", "link": "https://linkedin.com/in/felipe", "descricao": "Template de análise de empresas"}
+    ],
+    "certificacoes": ["CFA Level II", "Certificação ANBIMA CPA-20"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Valuation", "M&A", "Private Equity"]
+  },
+  {
+    "id": 19,
+    "nome": "Patrícia Lima Moreira",
+    "foto": "./images/foto19.jpg",
+    "cargo": "Coordenadora de Treinamento",
+    "resumo": "Desenvolvendo talentos e competências",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Educação Corporativa",
+    "habilidadesTecnicas": ["LMS", "Instructional Design", "E-learning", "Articulate", "Moodle"],
+    "softSkills": ["Didática", "Empatia", "Planejamento"],
+    "experiencias": [
+      {"empresa": "Universidade Corporativa", "cargo": "Coordenadora T&D", "inicio": "2021-01", "fim": "2024-11", "descricao": "Gestão de programas de desenvolvimento"},
+      {"empresa": "Empresa Multinacional", "cargo": "Analista de Treinamento", "inicio": "2018-06", "fim": "2020-12", "descricao": "Desenvolvimento de conteúdos"}
+    ],
+    "formacao": [
+      {"curso": "Pedagogia Empresarial", "instituicao": "UFMG", "ano": 2018},
+      {"curso": "Gestão de T&D", "instituicao": "FGV", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "Academia de Liderança", "link": "https://portfolio.patricia.com", "descricao": "Programa de desenvolvimento de líderes"}
+    ],
+    "certificacoes": ["CPTD Certification", "Design Instrucional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Andragogia", "Learning Experience", "Gamificação"]
+  },
+  {
+    "id": 20,
+    "nome": "Vinícius Alves Ferreira",
+    "foto": "./images/foto20.jpg",
+    "cargo": "Desenvolvedor Backend",
+    "resumo": "Construindo APIs robustas e escaláveis",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Python", "Django", "Flask", "PostgreSQL", "Redis", "Docker"],
+    "softSkills": ["Lógica", "Colaboração", "Code review"],
+    "experiencias": [
+      {"empresa": "Tech Startup", "cargo": "Backend Developer", "inicio": "2020-10", "fim": "2024-11", "descricao": "Desenvolvimento de microsserviços"},
+      {"empresa": "Software House", "cargo": "Desenvolvedor Júnior", "inicio": "2018-05", "fim": "2020-09", "descricao": "Manutenção de sistemas legados"}
+    ],
+    "formacao": [
+      {"curso": "Ciência da Computação", "instituicao": "PUCRS", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "API RESTful", "link": "https://github.com/vinicius/api", "descricao": "API de pagamentos com Django"}
+    ],
+    "certificacoes": ["Python Institute PCAP"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Microservices", "API Design", "Performance"]
+  },
+  {
+    "id": 21,
+    "nome": "Isabela Santos Carvalho",
+    "foto": "./images/foto21.jpg",
+    "cargo": "Gerente de Operações",
+    "resumo": "Otimizando processos e eficiência operacional",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Operações",
+    "habilidadesTecnicas": ["Lean Six Sigma", "ERP", "KPIs", "Process Mining", "BPM"],
+    "softSkills": ["Liderança", "Gestão de mudanças", "Resolução de problemas"],
+    "experiencias": [
+      {"empresa": "Indústria Nacional", "cargo": "Gerente de Operações", "inicio": "2021-02", "fim": "2024-11", "descricao": "Gestão de planta industrial"},
+      {"empresa": "Logística Express", "cargo": "Coordenadora Operacional", "inicio": "2018-07", "fim": "2021-01", "descricao": "Coordenação de centros de distribuição"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia de Produção", "instituicao": "UFRJ", "ano": 2018},
+      {"curso": "MBA Operations", "instituicao": "FGV", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "Redução de Custos 25%", "link": "https://linkedin.com/in/isabela", "descricao": "Projeto Lean Manufacturing"}
+    ],
+    "certificacoes": ["Lean Six Sigma Black Belt", "PMP"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Lean Manufacturing", "Supply Chain", "Process Excellence"]
+  },
+  {
+    "id": 22,
+    "nome": "Daniel Moreira Silva",
+    "foto": "./images/foto22.jpg",
+    "cargo": "Especialista em IoT",
+    "resumo": "Conectando dispositivos e gerando insights",
+    "localizacao": "Campinas/SP",
+    "area": "Internet das Coisas",
+    "habilidadesTecnicas": ["Arduino", "Raspberry Pi", "MQTT", "C++", "Python", "AWS IoT"],
+    "softSkills": ["Inovação", "Experimentação", "Problem solving"],
+    "experiencias": [
+      {"empresa": "IoT Solutions", "cargo": "IoT Engineer", "inicio": "2020-06", "fim": "2024-11", "descricao": "Desenvolvimento de soluções IoT industriais"},
+      {"empresa": "Smart Home Co", "cargo": "Desenvolvedor IoT", "inicio": "2018-09", "fim": "2020-05", "descricao": "Dispositivos inteligentes"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia Eletrônica", "instituicao": "UNICAMP", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Monitoramento Industrial", "link": "https://github.com/daniel/iot-monitor", "descricao": "Sistema de sensores industriais"}
+    ],
+    "certificacoes": ["AWS IoT Specialty"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Industry 4.0", "Edge Computing", "Smart Cities"]
+  },
+  {
+    "id": 23,
+    "nome": "Aline Ferreira Costa",
+    "foto": "./images/foto23.jpg",
+    "cargo": "Advogada Corporativa",
+    "resumo": "Assessoria jurídica estratégica empresarial",
+    "localizacao": "São Paulo/SP",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["Contratos", "Compliance", "LGPD", "Direito Societário", "M&A"],
+    "softSkills": ["Negociação", "Análise crítica", "Comunicação"],
+    "experiencias": [
+      {"empresa": "Escritório Internacional", "cargo": "Advogada Sênior", "inicio": "2020-03", "fim": "2024-11", "descricao": "Assessoria em M&A e compliance"},
+      {"empresa": "Departamento Jurídico", "cargo": "Advogada", "inicio": "2017-08", "fim": "2020-02", "descricao": "Contratos e consultoria"}
+    ],
+    "formacao": [
+      {"curso": "Direito", "instituicao": "USP", "ano": 2017},
+      {"curso": "LL.M. Direito Empresarial", "instituicao": "FGV", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Compliance LGPD", "link": "https://linkedin.com/in/aline", "descricao": "Implantação de programa de adequação"}
+    ],
+    "certificacoes": ["OAB-SP", "Certified Information Privacy Professional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["M&A", "Compliance", "Proteção de Dados"]
+  },
+  {
+    "id": 24,
+    "nome": "Marcelo Oliveira Campos",
+    "foto": "./images/foto24.jpg",
+    "cargo": "Especialista em SEO",
+    "resumo": "Otimizando sites para ranquear no Google",
+    "localizacao": "Florianópolis/SC",
+    "area": "Marketing Digital",
+    "habilidadesTecnicas": ["SEO On-page", "SEO Off-page", "Google Search Console", "Ahrefs", "Screaming Frog"],
+    "softSkills": ["Analítico", "Paciência", "Estratégia"],
+    "experiencias": [
+      {"empresa": "Agência Digital Top", "cargo": "SEO Specialist", "inicio": "2020-04", "fim": "2024-11", "descricao": "Estratégias SEO para grandes contas"},
+      {"empresa": "E-commerce Grande", "cargo": "Analista SEO", "inicio": "2018-01", "fim": "2020-03", "descricao": "SEO para e-commerce"}
+    ],
+    "formacao": [
+      {"curso": "Marketing Digital", "instituicao": "UFSC", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Crescimento Orgânico 300%", "link": "https://portfolio.marcelo.com", "descricao": "Caso de sucesso em SEO"}
+    ],
+    "certificacoes": ["Google Analytics", "SEMrush SEO Toolkit"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Technical SEO", "Content SEO", "Link Building"]
+  },
+  {
+    "id": 25,
+    "nome": "Renata Sousa Oliveira",
+    "foto": "./images/foto25.jpg",
+    "cargo": "Gerente de Customer Success",
+    "resumo": "Garantindo sucesso e retenção de clientes",
+    "localizacao": "São Paulo/SP",
+    "area": "Customer Success",
+    "habilidadesTecnicas": ["Salesforce", "Gainsight", "Churn Analysis", "NPS", "Customer Journey"],
+    "softSkills": ["Empatia", "Proatividade", "Relacionamento"],
+    "experiencias": [
+      {"empresa": "SaaS Company", "cargo": "CS Manager", "inicio": "2021-05", "fim": "2024-11", "descricao": "Gestão de carteira enterprise"},
+      {"empresa": "Tech Startup", "cargo": "Customer Success Analyst", "inicio": "2019-03", "fim": "2021-04", "descricao": "Onboarding e suporte"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "FGV", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Programa de Onboarding", "link": "https://linkedin.com/in/renata", "descricao": "Redução de 40% no time to value"}
+    ],
+    "certificacoes": ["Customer Success Manager Certification"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Customer Experience", "Retention", "Upselling"]
+  },
+  {
+    "id": 26,
+    "nome": "André Luiz Santos",
+    "foto": "./images/foto26.jpg",
+    "cargo": "Analista de Suporte Técnico",
+    "resumo": "Resolvendo problemas técnicos com eficiência",
+    "localizacao": "Recife/PE",
+    "area": "Suporte",
+    "habilidadesTecnicas": ["Windows Server", "Linux", "Active Directory", "Zendesk", "Networking"],
+    "softSkills": ["Paciência", "Comunicação clara", "Resolução rápida"],
+    "experiencias": [
+      {"empresa": "Tech Support Inc", "cargo": "Analista Suporte N2", "inicio": "2020-07", "fim": "2024-11", "descricao": "Suporte técnico avançado"},
+      {"empresa": "Help Desk Solutions", "cargo": "Analista Suporte N1", "inicio": "2018-04", "fim": "2020-06", "descricao": "Atendimento primeiro nível"}
+    ],
+    "formacao": [
+      {"curso": "Redes de Computadores", "instituicao": "UFPE", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Base de Conhecimento", "link": "https://github.com/andre/kb", "descricao": "Sistema de documentação técnica"}
+    ],
+    "certificacoes": ["CompTIA A+", "ITIL Foundation"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Infraestrutura", "Automação", "ITSM"]
+  },
+  {
+    "id": 27,
+    "nome": "Carolina Mendes Azevedo",
+    "foto": "./images/foto27.jpg",
+    "cargo": "Social Media Manager",
+    "resumo": "Criando presença digital e engajamento",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Mídias Sociais",
+    "habilidadesTecnicas": ["Meta Business Suite", "Canva", "Adobe Premiere", "Social Listening", "Analytics"],
+    "softSkills": ["Criatividade", "Agilidade", "Trend awareness"],
+    "experiencias": [
+      {"empresa": "Agência Criativa", "cargo": "Social Media Manager", "inicio": "2020-09", "fim": "2024-11", "descricao": "Gestão de mídias sociais de grandes marcas"},
+      {"empresa": "Marca Fashion", "cargo": "Social Media", "inicio": "2018-06", "fim": "2020-08", "descricao": "Criação de conteúdo"}
+    ],
+    "formacao": [
+      {"curso": "Publicidade e Propaganda", "instituicao": "PUCRS", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Campanha Viral Instagram", "link": "https://portfolio.carolina.com", "descricao": "Campanha com 2M de alcance"}
+    ],
+    "certificacoes": ["Meta Blueprint Certification", "Hootsuite Social Marketing"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Influencer Marketing", "Community Management", "Branded Content"]
+  },
+  {
+    "id": 28,
+    "nome": "Ricardo Pereira Dias",
+    "foto": "./images/foto28.jpg",
+    "cargo": "Engenheiro de Machine Learning",
+    "resumo": "Desenvolvendo modelos de IA preditivos",
+    "localizacao": "São Paulo/SP",
+    "area": "Inteligência Artificial",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "MLOps", "Kubernetes"],
+    "softSkills": ["Pensamento científico", "Curiosidade", "Experimentação"],
+    "experiencias": [
+      {"empresa": "AI Lab", "cargo": "ML Engineer", "inicio": "2021-04", "fim": "2024-11", "descricao": "Desenvolvimento de modelos de deep learning"},
+      {"empresa": "Data Science Team", "cargo": "Data Scientist", "inicio": "2019-01", "fim": "2021-03", "descricao": "Modelos preditivos"}
+    ],
+    "formacao": [
+      {"curso": "Mestrado em IA", "instituicao": "USP", "ano": 2019},
+      {"curso": "Engenharia da Computação", "instituicao": "ITA", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Computer Vision Model", "link": "https://github.com/ricardo/cv-model", "descricao": "Modelo de detecção de objetos"}
+    ],
+    "certificacoes": ["TensorFlow Developer Certificate", "AWS ML Specialty"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Deep Learning", "Computer Vision", "NLP"]
+  },
+  {
+    "id": 29,
+    "nome": "Bruna Alves Moreira",
+    "foto": "./images/foto29.jpg",
+    "cargo": "Coordenadora de Comunicação Interna",
+    "resumo": "Fortalecendo cultura e engajamento",
+    "localizacao": "Brasília/DF",
+    "area": "Comunicação",
+    "habilidadesTecnicas": ["Endomarketing", "Intranet", "Newsletter", "Eventos", "Comunicação Corporativa"],
+    "softSkills": ["Empatia", "Storytelling", "Relacionamento interpessoal"],
+    "experiencias": [
+      {"empresa": "Empresa Nacional", "cargo": "Coordenadora Comunicação Interna", "inicio": "2020-11", "fim": "2024-11", "descricao": "Gestão de comunicação corporativa"},
+      {"empresa": "Multinacional", "cargo": "Analista Comunicação", "inicio": "2018-03", "fim": "2020-10", "descricao": "Produção de conteúdo interno"}
+    ],
+    "formacao": [
+      {"curso": "Jornalismo", "instituicao": "UnB", "ano": 2018},
+      {"curso": "Comunicação Corporativa", "instituicao": "Aberje", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "Programa de Engajamento", "link": "https://linkedin.com/in/bruna", "descricao": "Aumento de 70% no NPS interno"}
+    ],
+    "certificacoes": ["Comunicação Empresarial Aberje"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Cultura Organizacional", "Employer Branding", "Engajamento"]
+  },
+  {
+    "id": 30,
+    "nome": "Gustavo Henrique Barros",
+    "foto": "./images/foto30.jpg",
+    "cargo": "Desenvolvedor Frontend",
+    "resumo": "Criando interfaces modernas e responsivas",
+    "localizacao": "Curitiba/PR",
+    "area": "Frontend",
+    "habilidadesTecnicas": ["React", "TypeScript", "Next.js", "TailwindCSS", "Redux", "Git"],
+    "softSkills": ["Atenção aos detalhes", "Colaboração", "Pixel perfect"],
+    "experiencias": [
+      {"empresa": "Digital Agency", "cargo": "Frontend Developer", "inicio": "2020-08", "fim": "2024-11", "descricao": "Desenvolvimento de SPAs e PWAs"},
+      {"empresa": "Startup Tech", "cargo": "Desenvolvedor Júnior", "inicio": "2018-10", "fim": "2020-07", "descricao": "Manutenção de websites"}
+    ],
+    "formacao": [
+      {"curso": "Sistemas de Informação", "instituicao": "UTFPR", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Dashboard Analytics", "link": "https://github.com/gustavo/dashboard", "descricao": "Dashboard interativo com React"}
+    ],
+    "certificacoes": ["Meta React Developer"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Web Performance", "Accessibility", "Design Systems"]
+  },
+  {
+    "id": 31,
+    "nome": "Vanessa Castro Rodrigues",
+    "foto": "./images/foto31.jpg",
+    "cargo": "Analista de Compliance",
+    "resumo": "Garantindo conformidade regulatória",
+    "localizacao": "São Paulo/SP",
+    "area": "Compliance",
+    "habilidadesTecnicas": ["SOX", "LGPD", "ISO 27001", "Risk Assessment", "Auditoria"],
+    "softSkills": ["Ética", "Atenção aos detalhes", "Imparcialidade"],
+    "experiencias": [
+      {"empresa": "Banco Grande", "cargo": "Analista Compliance Sênior", "inicio": "2020-06", "fim": "2024-11", "descricao": "Conformidade bancária e BACEN"},
+      {"empresa": "Auditoria Internacional", "cargo": "Analista Compliance", "inicio": "2018-02", "fim": "2020-05", "descricao": "Auditorias e due diligence"}
+    ],
+    "formacao": [
+      {"curso": "Direito", "instituicao": "Mackenzie", "ano": 2017},
+      {"curso": "Compliance", "instituicao": "LEC", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Programa de Integridade", "link": "https://linkedin.com/in/vanessa", "descricao": "Implantação de compliance program"}
+    ],
+    "certificacoes": ["Certified Compliance Professional", "LGPD DPO"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Governança", "ESG", "Anti-corrupção"]
+  },
+  {
+    "id": 32,
+    "nome": "João Paulo Nascimento",
+    "foto": "./images/foto32.jpg",
+    "cargo": "Especialista em CRM",
+    "resumo": "Otimizando relacionamento com clientes",
+    "localizacao": "Salvador/BA",
+    "area": "CRM",
+    "habilidadesTecnicas": ["Salesforce", "HubSpot", "RD Station", "Automação Marketing", "SQL"],
+    "softSkills": ["Visão de negócio", "Análise", "Estratégia"],
+    "experiencias": [
+      {"empresa": "Tech SaaS", "cargo": "CRM Specialist", "inicio": "2020-10", "fim": "2024-11", "descricao": "Implementação e otimização de CRM"},
+      {"empresa": "E-commerce Retail", "cargo": "Analista CRM", "inicio": "2018-05", "fim": "2020-09", "descricao": "Campanhas e segmentação"}
+    ],
+    "formacao": [
+      {"curso": "Marketing", "instituicao": "UFBA", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Automação Email Marketing", "link": "https://portfolio.joao.com", "descricao": "Fluxos que aumentaram conversão em 45%"}
+    ],
+    "certificacoes": ["Salesforce Administrator", "HubSpot CRM"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Marketing Automation", "Customer Data", "Lifecycle Marketing"]
+  },
+  {
+    "id": 33,
+    "nome": "Tatiana Fernandes Rocha",
+    "foto": "./images/foto33.jpg",
+    "cargo": "Arquiteta de Soluções Cloud",
+    "resumo": "Desenhando arquiteturas escaláveis na nuvem",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Cloud Computing",
+    "habilidadesTecnicas": ["AWS", "Azure", "GCP", "Terraform", "CloudFormation", "Multi-cloud"],
+    "softSkills": ["Visão arquitetural", "Comunicação técnica", "Consultoria"],
+    "experiencias": [
+      {"empresa": "Cloud Consulting", "cargo": "Solutions Architect", "inicio": "2021-03", "fim": "2024-11", "descricao": "Arquitetura de soluções enterprise na nuvem"},
+      {"empresa": "Tech Corp", "cargo": "Cloud Engineer", "inicio": "2019-01", "fim": "2021-02", "descricao": "Migração para cloud"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia da Computação", "instituicao": "UFRJ", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Migração Multi-cloud", "link": "https://linkedin.com/in/tatiana", "descricao": "Estratégia de migração de datacenter"}
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "Azure Solutions Architect Expert"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Cloud Architecture", "Cost Optimization", "Well-Architected"]
+  },
+  {
+    "id": 34,
+    "nome": "Eduardo Martins Lopes",
+    "foto": "./images/foto34.jpg",
+    "cargo": "Analista de Logística",
+    "resumo": "Otimizando cadeias de suprimento",
+    "localizacao": "São Paulo/SP",
+    "area": "Supply Chain",
+    "habilidadesTecnicas": ["SAP WM", "WMS", "Roteirização", "Excel", "Power BI"],
+    "softSkills": ["Organização", "Análise", "Gestão de prazos"],
+    "experiencias": [
+      {"empresa": "Logística Nacional", "cargo": "Analista Logística Pleno", "inicio": "2020-05", "fim": "2024-11", "descricao": "Gestão de armazéns e distribuição"},
+      {"empresa": "Transportadora", "cargo": "Assistente Logística", "inicio": "2018-03", "fim": "2020-04", "descricao": "Controle de frota e entregas"}
+    ],
+    "formacao": [
+      {"curso": "Logística", "instituicao": "FATEC", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Otimização de Rotas", "link": "https://portfolio.eduardo.com", "descricao": "Redução de 30% nos custos de transporte"}
+    ],
+    "certificacoes": ["APICS CSCP"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"},
+      {"idioma": "Espanhol", "nivel": "Básico"}
+    ],
+    "areaInteresses": ["Supply Chain", "Last Mile", "Gestão de Estoques"]
+  },
+  {
+    "id": 35,
+    "nome": "Priscila Souza Martins",
+    "foto": "./images/foto35.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Criando identidades visuais impactantes",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": ["Illustrator", "Photoshop", "InDesign", "After Effects", "Branding"],
+    "softSkills": ["Criatividade", "Senso estético", "Gestão de projetos"],
+    "experiencias": [
+      {"empresa": "Studio Criativo", "cargo": "Designer Gráfico Sênior", "inicio": "2020-09", "fim": "2024-11", "descricao": "Criação de identidades visuais"},
+      {"empresa": "Agência Publicidade", "cargo": "Designer", "inicio": "2018-04", "fim": "2020-08", "descricao": "Peças publicitárias"}
+    ],
+    "formacao": [
+      {"curso": "Design Gráfico", "instituicao": "UEMG", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Rebranding Empresa X", "link": "https://behance.net/priscila", "descricao": "Renovação completa de marca"}
+    ],
+    "certificacoes": ["Adobe Certified Professional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Branding", "Motion Design", "Editorial"]
+  },
+  {
+    "id": 36,
+    "nome": "Fábio Costa Azevedo",
+    "foto": "./images/foto36.jpg",
+    "cargo": "Engenheiro de Automação",
+    "resumo": "Automatizando processos industriais",
+    "localizacao": "Campinas/SP",
+    "area": "Automação Industrial",
+    "habilidadesTecnicas": ["PLC", "SCADA", "HMI", "Ladder", "Python", "Robótica"],
+    "softSkills": ["Lógica", "Precisão", "Troubleshooting"],
+    "experiencias": [
+      {"empresa": "Indústria Automobilística", "cargo": "Engenheiro Automação", "inicio": "2020-07", "fim": "2024-11", "descricao": "Automação de linhas de produção"},
+      {"empresa": "Manufatura", "cargo": "Analista Automação", "inicio": "2018-02", "fim": "2020-06", "descricao": "Manutenção de sistemas"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia de Controle e Automação", "instituicao": "UNICAMP", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Linha Automatizada", "link": "https://linkedin.com/in/fabio", "descricao": "Automação completa de processo produtivo"}
+    ],
+    "certificacoes": ["Siemens PLC Programming"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"},
+      {"idioma": "Alemão", "nivel": "Básico"}
+    ],
+    "areaInteresses": ["Indústria 4.0", "IIoT", "Robótica Industrial"]
+  },
+  {
+    "id": 37,
+    "nome": "Débora Almeida Pinto",
+    "foto": "./images/foto37.jpg",
+    "cargo": "Gerente de Projetos Ágeis",
+    "resumo": "Entregando valor com metodologias ágeis",
+    "localizacao": "Florianópolis/SC",
+    "area": "Gestão Ágil",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "SAFe", "Jira", "Confluence", "OKRs"],
+    "softSkills": ["Facilitação", "Servant Leadership", "Comunicação"],
+    "experiencias": [
+      {"empresa": "Tech Empresa", "cargo": "Agile Project Manager", "inicio": "2021-02", "fim": "2024-11", "descricao": "Gestão de squads ágeis"},
+      {"empresa": "Consultoria Digital", "cargo": "Scrum Master", "inicio": "2019-06", "fim": "2021-01", "descricao": "Facilitação de cerimônias"}
+    ],
+    "formacao": [
+      {"curso": "Gestão de TI", "instituicao": "UFSC", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Transformação Ágil", "link": "https://linkedin.com/in/debora", "descricao": "Implementação de framework SAFe"}
+    ],
+    "certificacoes": ["PSM III", "SAFe Agilist", "ICP-ACC"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Agile Coaching", "Transformação Digital", "Team Building"]
+  },
+  {
+    "id": 38,
+    "nome": "Leonardo Barbosa Silva",
+    "foto": "./images/foto38.jpg",
+    "cargo": "Analista de Processos",
+    "resumo": "Otimizando e documentando processos",
+    "localizacao": "Porto Alegre/RS",
+    "area": "BPM",
+    "habilidadesTecnicas": ["BPMN", "Bizagi", "Process Mining", "Lean", "Six Sigma"],
+    "softSkills": ["Análise crítica", "Mapeamento", "Melhoria contínua"],
+    "experiencias": [
+      {"empresa": "Consultoria BPM", "cargo": "Analista Processos Sênior", "inicio": "2020-08", "fim": "2024-11", "descricao": "Modelagem e otimização de processos"},
+      {"empresa": "Indústria Química", "cargo": "Analista Processos", "inicio": "2018-04", "fim": "2020-07", "descricao": "Documentação de procedimentos"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "PUCRS", "ano": 2018},
+      {"curso": "BPM", "instituicao": "ABPMP", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Redesenho de Processos", "link": "https://portfolio.leonardo.com", "descricao": "Redução de 40% no tempo de processo"}
+    ],
+    "certificacoes": ["CBPP", "Lean Six Sigma Green Belt"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Process Mining", "RPA", "Digital Transformation"]
+  },
+  {
+    "id": 39,
+    "nome": "Lívia Rodrigues Ferreira",
+    "foto": "./images/foto39.jpg",
+    "cargo": "Nutricionista Corporativa",
+    "resumo": "Promovendo saúde e bem-estar no trabalho",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Nutrição Clínica", "Avaliação Nutricional", "Educação Alimentar", "Gestão de Refeitórios"],
+    "softSkills": ["Empatia", "Educação", "Planejamento"],
+    "experiencias": [
+      {"empresa": "Empresa Grande", "cargo": "Nutricionista Corporativa", "inicio": "2020-03", "fim": "2024-11", "descricao": "Programas de qualidade de vida"},
+      {"empresa": "Consultório", "cargo": "Nutricionista Clínica", "inicio": "2017-06", "fim": "2020-02", "descricao": "Atendimento nutricional"}
+    ],
+    "formacao": [
+      {"curso": "Nutrição", "instituicao": "USP", "ano": 2017},
+      {"curso": "Especialização Nutrição Clínica", "instituicao": "Ganep", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Programa Alimentação Saudável", "link": "https://linkedin.com/in/livia", "descricao": "Programa corporativo de nutrição"}
+    ],
+    "certificacoes": ["CRN-3"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Qualidade de Vida", "Nutrição Comportamental", "Saúde Corporativa"]
+  },
+  {
+    "id": 40,
+    "nome": "Henrique Alves Cardoso",
+    "foto": "./images/foto40.jpg",
+    "cargo": "Especialista em Blockchain",
+    "resumo": "Desenvolvendo soluções descentralizadas",
+    "localizacao": "São Paulo/SP",
+    "area": "Blockchain",
+    "habilidadesTecnicas": ["Solidity", "Ethereum", "Smart Contracts", "Web3", "Hyperledger"],
+    "softSkills": ["Inovação", "Visão de futuro", "Problem solving"],
+    "experiencias": [
+      {"empresa": "Fintech Blockchain", "cargo": "Blockchain Developer", "inicio": "2021-05", "fim": "2024-11", "descricao": "Desenvolvimento de DApps"},
+      {"empresa": "Startup Crypto", "cargo": "Desenvolvedor", "inicio": "2019-09", "fim": "2021-04", "descricao": "Smart contracts"}
+    ],
+    "formacao": [
+      {"curso": "Ciência da Computação", "instituicao": "IME-USP", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "DeFi Protocol", "link": "https://github.com/henrique/defi", "descricao": "Protocolo de finanças descentralizadas"}
+    ],
+    "certificacoes": ["Certified Blockchain Developer"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["DeFi", "NFTs", "Web3"]
+  },
+  {
+    "id": 41,
+    "nome": "Simone Carvalho Lima",
+    "foto": "./images/foto41.jpg",
+    "cargo": "Coordenadora de Eventos",
+    "resumo": "Planejando eventos memoráveis e impactantes",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Eventos",
+    "habilidadesTecnicas": ["Gestão de Eventos", "Orçamento", "Logística", "Marketing Eventos", "Eventbrite"],
+    "softSkills": ["Organização", "Criatividade", "Gestão de crises"],
+    "experiencias": [
+      {"empresa": "Agência de Eventos", "cargo": "Coordenadora", "inicio": "2020-04", "fim": "2024-11", "descricao": "Eventos corporativos e culturais"},
+      {"empresa": "Hotel Luxo", "cargo": "Analista Eventos", "inicio": "2018-01", "fim": "2020-03", "descricao": "Eventos sociais"}
+    ],
+    "formacao": [
+      {"curso": "Turismo e Hotelaria", "instituicao": "UFF", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Conferência Tech 2023", "link": "https://portfolio.simone.com", "descricao": "Evento com 2000 participantes"}
+    ],
+    "certificacoes": ["CMP - Certified Meeting Professional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"},
+      {"idioma": "Francês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Eventos Híbridos", "Sustentabilidade", "Experiências Imersivas"]
+  },
+  {
+    "id": 42,
+    "nome": "Alexandre Santos Moreira",
+    "foto": "./images/foto42.jpg",
+    "cargo": "Desenvolvedor de Games",
+    "resumo": "Criando experiências interativas e jogos",
+    "localizacao": "Curitiba/PR",
+    "area": "Game Development",
+    "habilidadesTecnicas": ["Unity", "C#", "Unreal Engine", "Blender", "Game Design"],
+    "softSkills": ["Criatividade", "Trabalho em equipe", "Persistência"],
+    "experiencias": [
+      {"empresa": "Game Studio", "cargo": "Game Developer", "inicio": "2020-06", "fim": "2024-11", "descricao": "Desenvolvimento de jogos mobile e PC"},
+      {"empresa": "Indie Studio", "cargo": "Desenvolvedor Júnior", "inicio": "2018-08", "fim": "2020-05", "descricao": "Programação de gameplay"}
+    ],
+    "formacao": [
+      {"curso": "Jogos Digitais", "instituicao": "PUC-PR", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Jogo Indie Publicado", "link": "https://portfolio.alexandre.com", "descricao": "Jogo com 100k downloads"}
+    ],
+    "certificacoes": ["Unity Certified Developer"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Game AI", "VR/AR Games", "Gameplay Programming"]
+  },
+  {
+    "id": 43,
+    "nome": "Paula Cristina Gomes",
+    "foto": "./images/foto43.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Gestão de pessoas e desenvolvimento organizacional",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["Recrutamento", "Seleção", "DHO", "People Analytics", "TOTVS"],
+    "softSkills": ["Empatia", "Confidencialidade", "Relacionamento"],
+    "experiencias": [
+      {"empresa": "Empresa Varejo", "cargo": "Analista RH Pleno", "inicio": "2020-09", "fim": "2024-11", "descricao": "Gestão de talentos e R&S"},
+      {"empresa": "RH Consultoria", "cargo": "Assistente RH", "inicio": "2018-03", "fim": "2020-08", "descricao": "Processos administrativos"}
+    ],
+    "formacao": [
+      {"curso": "Gestão de RH", "instituicao": "PUC Minas", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Programa de Trainees", "link": "https://linkedin.com/in/paula", "descricao": "Estruturação de programa completo"}
+    ],
+    "certificacoes": ["SHRM-CP"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["People Analytics", "Talent Acquisition", "Employee Experience"]
+  },
+  {
+    "id": 44,
+    "nome": "Roberto Carlos Dias",
+    "foto": "./images/foto44.jpg",
+    "cargo": "Engenheiro Civil",
+    "resumo": "Planejamento e execução de obras",
+    "localizacao": "São Paulo/SP",
+    "area": "Engenharia Civil",
+    "habilidadesTecnicas": ["AutoCAD", "Revit", "MS Project", "Orçamento", "Gestão de Obras"],
+    "softSkills": ["Liderança", "Gestão de equipes", "Negociação"],
+    "experiencias": [
+      {"empresa": "Construtora Grande", "cargo": "Engenheiro de Obras", "inicio": "2020-04", "fim": "2024-11", "descricao": "Gestão de obras residenciais"},
+      {"empresa": "Escritório Projetos", "cargo": "Engenheiro Júnior", "inicio": "2018-02", "fim": "2020-03", "descricao": "Projetos estruturais"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia Civil", "instituicao": "Politécnica USP", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Edifício Residencial 30 andares", "link": "https://linkedin.com/in/roberto", "descricao": "Obra entregue no prazo e orçamento"}
+    ],
+    "certificacoes": ["CREA-SP"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Construção Sustentável", "BIM", "Gestão de Projetos"]
+  },
+  {
+    "id": 45,
+    "nome": "Carla Eduarda Pires",
+    "foto": "./images/foto45.jpg",
+    "cargo": "Especialista em Growth",
+    "resumo": "Acelerando crescimento de produtos digitais",
+    "localizacao": "São Paulo/SP",
+    "area": "Growth",
+    "habilidadesTecnicas": ["Growth Hacking", "A/B Testing", "Mixpanel", "Amplitude", "SQL", "Python"],
+    "softSkills": ["Experimentação", "Data-driven", "Criatividade"],
+    "experiencias": [
+      {"empresa": "Startup Unicórnio", "cargo": "Growth Lead", "inicio": "2021-07", "fim": "2024-11", "descricao": "Estratégias de crescimento viral"},
+      {"empresa": "Fintech", "cargo": "Growth Analyst", "inicio": "2019-04", "fim": "2021-06", "descricao": "Otimização de funis"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "FGV", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Crescimento 500% MoM", "link": "https://portfolio.carla.com", "descricao": "Estratégia de growth que escalou produto"}
+    ],
+    "certificacoes": ["Reforge Growth Series"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Product-Led Growth", "Viral Loops", "Retention"]
+  },
+  {
+    "id": 46,
+    "nome": "Marcio Henrique Teixeira",
+    "foto": "./images/foto46.jpg",
+    "cargo": "Analista de Sistemas",
+    "resumo": "Desenvolvendo e mantendo sistemas corporativos",
+    "localizacao": "Brasília/DF",
+    "area": "Análise de Sistemas",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "Oracle", "UML", "Webservices"],
+    "softSkills": ["Análise", "Documentação", "Comunicação"],
+    "experiencias": [
+      {"empresa": "Órgão Público", "cargo": "Analista Sistemas", "inicio": "2020-01", "fim": "2024-11", "descricao": "Desenvolvimento de sistemas governamentais"},
+      {"empresa": "Empresa Privada", "cargo": "Desenvolvedor", "inicio": "2017-08", "fim": "2019-12", "descricao": "Sistemas internos"}
+    ],
+    "formacao": [
+      {"curso": "Análise e Desenvolvimento de Sistemas", "instituicao": "UnB", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Sistema Integrado", "link": "https://github.com/marcio/sistema", "descricao": "Sistema de gestão completo"}
+    ],
+    "certificacoes": ["Oracle Certified Professional Java"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Integração de Sistemas", "Arquitetura", "Clean Code"]
+  },
+  {
+    "id": 47,
+    "nome": "Adriana Moura Santos",
+    "foto": "./images/foto47.jpg",
+    "cargo": "Farmacêutica Hospitalar",
+    "resumo": "Gestão farmacêutica e farmácia clínica",
+    "localizacao": "Salvador/BA",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Farmacologia", "Farmacovigilância", "Gestão de Estoque", "Dispensação"],
+    "softSkills": ["Atenção aos detalhes", "Ética", "Trabalho em equipe"],
+    "experiencias": [
+      {"empresa": "Hospital Referência", "cargo": "Farmacêutica Clínica", "inicio": "2020-05", "fim": "2024-11", "descricao": "Farmácia clínica e CTI"},
+      {"empresa": "Farmácia Hospitalar", "cargo": "Farmacêutica", "inicio": "2018-02", "fim": "2020-04", "descricao": "Dispensação hospitalar"}
+    ],
+    "formacao": [
+      {"curso": "Farmácia", "instituicao": "UFBA", "ano": 2017},
+      {"curso": "Especialização Farmácia Hospitalar", "instituicao": "UFBA", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Protocolo de Segurança", "link": "https://linkedin.com/in/adriana", "descricao": "Protocolo de segurança medicamentosa"}
+    ],
+    "certificacoes": ["CRF-BA"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Farmácia Clínica", "Oncologia", "Segurança do Paciente"]
+  },
+  {
+    "id": 48,
+    "nome": "Claudio Ferreira Nunes",
+    "foto": "./images/foto48.jpg",
+    "cargo": "Contador",
+    "resumo": "Gestão contábil e fiscal estratégica",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Contabilidade",
+    "habilidadesTecnicas": ["Contabilidade Tributária", "SPED", "ERP", "Demonstrações Financeiras", "Auditoria"],
+    "softSkills": ["Precisão", "Organização", "Análise"],
+    "experiencias": [
+      {"empresa": "Escritório Contábil", "cargo": "Contador Sênior", "inicio": "2020-03", "fim": "2024-11", "descricao": "Consultoria contábil e fiscal"},
+      {"empresa": "Indústria", "cargo": "Analista Contábil", "inicio": "2017-06", "fim": "2020-02", "descricao": "Contabilidade geral"}
+    ],
+    "formacao": [
+      {"curso": "Ciências Contábeis", "instituicao": "UERJ", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Planejamento Tributário", "link": "https://linkedin.com/in/claudio", "descricao": "Redução de carga tributária em 20%"}
+    ],
+    "certificacoes": ["CRC-RJ", "Perito Contábil"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Planejamento Tributário", "Controladoria", "IFRS"]
+  },
+  {
+    "id": 49,
+    "nome": "Sandra Regina Campos",
+    "foto": "./images/foto49.jpg",
+    "cargo": "Professora de Inglês Corporativo",
+    "resumo": "Desenvolvendo habilidades linguísticas profissionais",
+    "localizacao": "São Paulo/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": ["Inglês Corporativo", "Business English", "Metodologias Ativas", "EAD"],
+    "softSkills": ["Didática", "Paciência", "Comunicação"],
+    "experiencias": [
+      {"empresa": "Escola de Idiomas Corporativa", "cargo": "Teacher Trainer", "inicio": "2021-01", "fim": "2024-11", "descricao": "Treinamento de professores e aulas in-company"},
+      {"empresa": "Escola de Idiomas", "cargo": "Professora", "inicio": "2018-03", "fim": "2020-12", "descricao": "Aulas de Business English"}
+    ],
+    "formacao": [
+      {"curso": "Letras - Inglês", "instituicao": "USP", "ano": 2017},
+      {"curso": "CELTA", "instituicao": "Cambridge", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Programa English for Business", "link": "https://portfolio.sandra.com", "descricao": "Curso corporativo desenvolvido"}
+    ],
+    "certificacoes": ["CELTA", "CPE Cambridge", "TESOL"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"},
+      {"idioma": "Espanhol", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Business Communication", "Cross-cultural Training", "ESP"]
+  },
+  {
+    "id": 50,
+    "nome": "Rodrigo Menezes Barbosa",
+    "foto": "./images/foto50.jpg",
+    "cargo": "Analista de Infraestrutura",
+    "resumo": "Garantindo disponibilidade de sistemas e redes",
+    "localizacao": "Curitiba/PR",
+    "area": "Infraestrutura TI",
+    "habilidadesTecnicas": ["Windows Server", "Linux", "Vmware", "Backup", "Redes", "Active Directory"],
+    "softSkills": ["Proatividade", "Troubleshooting", "Disponibilidade"],
+    "experiencias": [
+      {"empresa": "Empresa Tecnologia", "cargo": "Analista Infraestrutura Pleno", "inicio": "2020-06", "fim": "2024-11", "descricao": "Gestão de servidores e storage"},
+      {"empresa": "Provedor Internet", "cargo": "Técnico Redes", "inicio": "2018-04", "fim": "2020-05", "descricao": "Suporte a redes"}
+    ],
+    "formacao": [
+      {"curso": "Redes de Computadores", "instituicao": "UTFPR", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Migração para Virtualização", "link": "https://linkedin.com/in/rodrigo-menezes", "descricao": "Projeto de virtualização completa"}
+    ],
+    "certificacoes": ["MCSA", "VMware VCP", "CCNA"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Virtualização", "Cloud Infrastructure", "High Availability"]
+  },
+  {
+    "id": 51,
+    "nome": "Monica Silva Araújo",
+    "foto": "./images/foto51.jpg",
+    "cargo": "Especialista em Experiência do Cliente",
+    "resumo": "Desenhando jornadas centradas no cliente",
+    "localizacao": "São Paulo/SP",
+    "area": "Customer Experience",
+    "habilidadesTecnicas": ["Customer Journey Mapping", "Service Design", "NPS", "CSAT", "Voice of Customer"],
+    "softSkills": ["Empatia", "Design Thinking", "Storytelling"],
+    "experiencias": [
+      {"empresa": "Fintech Líder", "cargo": "CX Specialist", "inicio": "2021-03", "fim": "2024-11", "descricao": "Mapeamento de jornadas e melhoria de experiência"},
+      {"empresa": "Varejo Digital", "cargo": "Analista CX", "inicio": "2019-07", "fim": "2021-02", "descricao": "Pesquisas e análise de feedback"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "ESPM", "ano": 2019},
+      {"curso": "Service Design", "instituicao": "IED", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "Redesign Journey Onboarding", "link": "https://portfolio.monica.com", "descricao": "Aumento de 50% na ativação"}
+    ],
+    "certificacoes": ["CCXP - Certified Customer Experience Professional"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Service Design", "Voice of Customer", "Omnichannel"]
+  },
+  {
+    "id": 52,
+    "nome": "Fernando Costa Ribeiro",
+    "foto": "./images/foto52.jpg",
+    "cargo": "Analista de Inteligência de Mercado",
+    "resumo": "Transformando dados em estratégia competitiva",
+    "localizacao": "São Paulo/SP",
+    "area": "Inteligência de Mercado",
+    "habilidadesTecnicas": ["Market Research", "Análise Competitiva", "Nielsen", "Excel", "Power BI"],
+    "softSkills": ["Visão estratégica", "Análise", "Apresentação"],
+    "experiencias": [
+      {"empresa": "Indústria FMCG", "cargo": "Analista Inteligência Sênior", "inicio": "2020-08", "fim": "2024-11", "descricao": "Análise de mercado e concorrência"},
+      {"empresa": "Consultoria Estratégica", "cargo": "Analista Market Intelligence", "inicio": "2018-05", "fim": "2020-07", "descricao": "Pesquisas de mercado"}
+    ],
+    "formacao": [
+      {"curso": "Economia", "instituicao": "USP", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Análise Entrada Novo Mercado", "link": "https://linkedin.com/in/fernando-costa", "descricao": "Estudo que direcionou expansão"}
+    ],
+    "certificacoes": ["Professional Researcher Certification"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Fluente"}
+    ],
+    "areaInteresses": ["Competitive Intelligence", "Consumer Insights", "Strategic Planning"]
+  },
+  {
+    "id": 53,
+    "nome": "Bianca Oliveira Sousa",
+    "foto": "./images/foto53.jpg",
+    "cargo": "Arquiteta",
+    "resumo": "Projetando espaços funcionais e inspiradores",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["AutoCAD", "SketchUp", "Revit", "3ds Max", "V-Ray", "Photoshop"],
+    "softSkills": ["Criatividade", "Visão espacial", "Gestão de projetos"],
+    "experiencias": [
+      {"empresa": "Escritório de Arquitetura", "cargo": "Arquiteta", "inicio": "2020-04", "fim": "2024-11", "descricao": "Projetos residenciais e comerciais"},
+      {"empresa": "Construtora", "cargo": "Arquiteta Júnior", "inicio": "2018-02", "fim": "2020-03", "descricao": "Acompanhamento de obras"}
+    ],
+    "formacao": [
+      {"curso": "Arquitetura e Urbanismo", "instituicao": "UFRJ", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Residência Contemporânea", "link": "https://behance.net/bianca", "descricao": "Projeto premiado de casa sustentável"}
+    ],
+    "certificacoes": ["CAU-RJ"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"},
+      {"idioma": "Italiano", "nivel": "Básico"}
+    ],
+    "areaInteresses": ["Arquitetura Sustentável", "Design de Interiores", "BIM"]
+  },
+  {
+    "id": 54,
+    "nome": "William Almeida Cruz",
+    "foto": "./images/foto54.jpg",
+    "cargo": "Coordenador de Manutenção Industrial",
+    "resumo": "Garantindo disponibilidade de equipamentos",
+    "localizacao": "Campinas/SP",
+    "area": "Manutenção",
+    "habilidadesTecnicas": ["Manutenção Preditiva", "Preventiva", "TPM", "SAP PM", "Hidráulica", "Pneumática"],
+    "softSkills": ["Liderança de equipes", "Organização", "Tomada de decisão"],
+    "experiencias": [
+      {"empresa": "Indústria Química", "cargo": "Coordenador Manutenção", "inicio": "2021-02", "fim": "2024-11", "descricao": "Gestão de equipe de manutenção 24/7"},
+      {"empresa": "Planta Industrial", "cargo": "Supervisor Manutenção", "inicio": "2018-06", "fim": "2021-01", "descricao": "Planejamento de manutenção"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia Mecânica", "instituicao": "UNICAMP", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Implementação TPM", "link": "https://linkedin.com/in/william-cruz", "descricao": "Redução de 35% em paradas não programadas"}
+    ],
+    "certificacoes": ["CREA-SP", "Green Belt Six Sigma"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Manutenção Preditiva", "Confiabilidade", "Gestão de Ativos"]
+  },
+  {
+    "id": 55,
+    "nome": "Juliana Pereira Matos",
+    "foto": "./images/foto55.jpg",
+    "cargo": "Editora de Vídeo",
+    "resumo": "Criando narrativas visuais impactantes",
+    "localizacao": "São Paulo/SP",
+    "area": "Audiovisual",
+    "habilidadesTecnicas": ["Premiere Pro", "After Effects", "DaVinci Resolve", "Final Cut", "Motion Graphics"],
+    "softSkills": ["Criatividade", "Atenção aos detalhes", "Gestão de tempo"],
+    "experiencias": [
+      {"empresa": "Produtora Audiovisual", "cargo": "Editora Sênior", "inicio": "2020-07", "fim": "2024-11", "descricao": "Edição de vídeos comerciais e institucionais"},
+      {"empresa": "Agência Publicidade", "cargo": "Editora", "inicio": "2018-03", "fim": "2020-06", "descricao": "Vídeos para redes sociais"}
+    ],
+    "formacao": [
+      {"curso": "Cinema e Audiovisual", "instituicao": "FAAP", "ano": 2017}
+    ],
+    "projetos": [
+      {"titulo": "Documentário Curta", "link": "https://vimeo.com/juliana", "descricao": "Curta exibido em festivais"}
+    ],
+    "certificacoes": ["Adobe Certified Professional Video Editor"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Motion Design", "Color Grading", "Documentary"]
+  },
+  {
+    "id": 56,
+    "nome": "Márcio Luiz Teixeira",
+    "foto": "./images/foto56.jpg",
+    "cargo": "Especialista em Energia Renovável",
+    "resumo": "Desenvolvendo soluções em energia solar",
+    "localizacao": "Florianópolis/SC",
+    "area": "Energia",
+    "habilidadesTecnicas": ["Energia Solar", "PVsyst", "AutoCAD", "Dimensionamento", "Análise Viabilidade"],
+    "softSkills": ["Sustentabilidade", "Consultoria técnica", "Visão de negócio"],
+    "experiencias": [
+      {"empresa": "Empresa Energia Solar", "cargo": "Engenheiro de Projetos", "inicio": "2020-05", "fim": "2024-11", "descricao": "Projetos de usinas solares"},
+      {"empresa": "Integradora Solar", "cargo": "Projetista", "inicio": "2018-08", "fim": "2020-04", "descricao": "Projetos residenciais e comerciais"}
+    ],
+    "formacao": [
+      {"curso": "Engenharia Elétrica", "instituicao": "UFSC", "ano": 2018},
+      {"curso": "Especialização Energia Solar", "instituicao": "PUCRS", "ano": 2019}
+    ],
+    "projetos": [
+      {"titulo": "Usina Solar 5MW", "link": "https://linkedin.com/in/marcio-teixeira", "descricao": "Projeto e comissionamento de usina"}
+    ],
+    "certificacoes": ["CREA-SC", "Projetista Solar Blue Sol"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Energia Solar", "Sustentabilidade", "Smart Grid"]
+  },
+  {
+    "id": 57,
+    "nome": "Natália Campos Ferreira",
+    "foto": "./images/foto57.jpg",
+    "cargo": "Analista de Compras",
+    "resumo": "Negociação e gestão estratégica de fornecedores",
+    "localizacao": "São Paulo/SP",
+    "area": "Suprimentos",
+    "habilidadesTecnicas": ["Negociação", "SAP MM", "Cotação", "Gestão Contratos", "Power BI"],
+    "softSkills": ["Negociação", "Relacionamento", "Análise de custos"],
+    "experiencias": [
+      {"empresa": "Indústria Multinacional", "cargo": "Analista Compras Pleno", "inicio": "2020-09", "fim": "2024-11", "descricao": "Compras estratégicas e negociação"},
+      {"empresa": "Varejo Nacional", "cargo": "Assistente Compras", "inicio": "2018-04", "fim": "2020-08", "descricao": "Cotações e pedidos"}
+    ],
+    "formacao": [
+      {"curso": "Administração", "instituicao": "Mackenzie", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Redução de Custos 20%", "link": "https://linkedin.com/in/natalia-campos", "descricao": "Projeto de renegociação com fornecedores"}
+    ],
+    "certificacoes": ["CPSM - Certified Professional in Supply Management"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"},
+      {"idioma": "Espanhol", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Procurement", "Supplier Management", "Category Management"]
+  },
+  {
+    "id": 58,
+    "nome": "Diego Ribeiro Santos",
+    "foto": "./images/foto58.jpg",
+    "cargo": "Analista de Testes de Software",
+    "resumo": "Garantindo qualidade através de testes rigorosos",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Quality Assurance",
+    "habilidadesTecnicas": ["Selenium", "JMeter", "TestRail", "API Testing", "SQL", "Agile Testing"],
+    "softSkills": ["Meticulosidade", "Análise", "Comunicação"],
+    "experiencias": [
+      {"empresa": "Software Factory", "cargo": "QA Analyst", "inicio": "2020-06", "fim": "2024-11", "descricao": "Testes automatizados e manuais"},
+      {"empresa": "Startup Tech", "cargo": "Testador", "inicio": "2018-09", "fim": "2020-05", "descricao": "Testes funcionais"}
+    ],
+    "formacao": [
+      {"curso": "Sistemas de Informação", "instituicao": "PUCRS", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Suite Automação Testes", "link": "https://github.com/diego/test-suite", "descricao": "Framework de testes automatizados"}
+    ],
+    "certificacoes": ["ISTQB Advanced", "Scrum Foundation"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Intermediário"}
+    ],
+    "areaInteresses": ["Test Automation", "Performance Testing", "CI/CD"]
+  },
+  {
+    "id": 59,
+    "nome": "Letícia Moura Oliveira",
+    "foto": "./images/foto59.jpg",
+    "cargo": "Coordenadora de Endomarketing",
+    "resumo": "Engajando colaboradores e fortalecendo cultura",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing Interno",
+    "habilidadesTecnicas": ["Endomarketing", "Comunicação Interna", "Engagement", "SharePoint", "Canva"],
+    "softSkills": ["Criatividade", "Empatia", "Planejamento"],
+    "experiencias": [
+      {"empresa": "Empresa Nacional", "cargo": "Coordenadora Endomarketing", "inicio": "2021-01", "fim": "2024-11", "descricao": "Estratégias de engajamento interno"},
+      {"empresa": "Multinacional", "cargo": "Analista Endomarketing", "inicio": "2018-07", "fim": "2020-12", "descricao": "Campanhas internas"}
+    ],
+    "formacao": [
+      {"curso": "Marketing", "instituicao": "UP", "ano": 2018},
+      {"curso": "Comunicação Corporativa", "instituicao": "ESPM", "ano": 2020}
+    ],
+    "projetos": [
+      {"titulo": "Programa de Reconhecimento", "link": "https://portfolio.leticia.com", "descricao": "Programa que aumentou NPS interno em 40%"}
+    ],
+    "certificacoes": ["Endomarketing Aberje"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Cultura Organizacional", "Employee Experience", "Internal Branding"]
+  },
+  {
+    "id": 60,
+    "nome": "Fábio Augusto Vieira",
+    "foto": "./images/foto60.jpg",
+    "cargo": "Especialista em Automação de Marketing",
+    "resumo": "Automatizando jornadas e nutrindo leads",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing Automation",
+    "habilidadesTecnicas": ["HubSpot", "RD Station", "Marketo", "Zapier", "SQL", "HTML"],
+    "softSkills": ["Lógica", "Estratégia", "Análise de dados"],
+    "experiencias": [
+      {"empresa": "SaaS B2B", "cargo": "Marketing Automation Specialist", "inicio": "2021-04", "fim": "2024-11", "descricao": "Automações complexas e lead nurturing"},
+      {"empresa": "Agência Digital", "cargo": "Analista Marketing Automation", "inicio": "2019-02", "fim": "2021-03", "descricao": "Fluxos de automação"}
+    ],
+    "formacao": [
+      {"curso": "Sistemas de Informação", "instituicao": "FIAP", "ano": 2018}
+    ],
+    "projetos": [
+      {"titulo": "Automação Lifecycle Completo", "link": "https://portfolio.fabio-vieira.com", "descricao": "Fluxos que geraram 300% mais MQLs"}
+    ],
+    "certificacoes": ["HubSpot Marketing Automation", "RD Station Certified"],
+    "idiomas": [
+      {"idioma": "Português", "nivel": "Nativo"},
+      {"idioma": "Inglês", "nivel": "Avançado"}
+    ],
+    "areaInteresses": ["Marketing Automation", "Lead Nurturing", "MarTech"]
+  }
+]
