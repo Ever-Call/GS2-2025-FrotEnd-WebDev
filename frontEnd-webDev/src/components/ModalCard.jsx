@@ -21,7 +21,7 @@ export default function ModalCard({profissional, functions}){
   }, [])
   
   return(
-    <div className="fixed w-full h-full z-10 bg-black/70 inset-0 flex justify-center items-center">
+    <div className="fixed w-full h-full z-10 bg-black/60 backdrop-blur-sm inset-0 flex justify-center items-center">
       <div className="relative p-4 bg-gray-100 max-w-7xl">
         {/* Fecha o ProfileCard */}
           <div className="text-red-500 absolute top-0 right-0" onClick={()=>setModalIsOpen(false)}>FECHAR</div>
@@ -87,7 +87,7 @@ export default function ModalCard({profissional, functions}){
             <button onClick={()=>setRank(rank+1)}>Recomendar</button>
           </div>
 
-          {chatModalIsOpen && <ChatModal />}
+          {chatModalIsOpen && <ChatModal setChatModalIsOpen={setChatModalIsOpen} nome={nome} />}
       </div>
     </div>
   )

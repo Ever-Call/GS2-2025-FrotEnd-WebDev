@@ -7,6 +7,9 @@ import Filter from './components/Filter'
 export default function App() {
   const database = perfis
   const [profiles, setProfiles] = useState(database)
+  const [chat, setChat] = useState({})
+
+  setChat()
 
   const filters ={
     area:[],

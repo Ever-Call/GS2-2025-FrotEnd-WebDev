@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 // filtro: área, cidade ou tecnologia -> area, localizacao, habilidadesTecnicas[index]
 
 export default function Filter({database, profiles, setProfiles, filters}){
@@ -7,44 +7,29 @@ export default function Filter({database, profiles, setProfiles, filters}){
   const [cidade, setCidade] = useState('')
   const [habilidadeTecnica, setHabilidadeTecnica] = useState('')
 
-  function handle(){
-    // os useState são assincronos dentro do seu bloco de codigo, neste caso o bloco de código é handleSearch
-    // setProfiles(database.filter((profile)=>{
-    //   const searchTerm = searchContent.toLocaleLowerCase()
-    //   const profileName = profile.nome.toLocaleLowerCase()
-    //   return profileName.includes(searchTerm)
-    // }))
+  useEffect(()=>{
+
+    let res = profiles
 
     if(area){
-      setProfiles(profiles.filter((profile)=>area == profile.area))
+      res =res.filter((r)=>r.area==area)
     }
+
     if(cidade){
-      setProfiles(profiles.filter((profile)=>cidade == profile.localizacao))
+      res =res.filter((r)=>r.localizacao==cidade)
     }
-    // if(habilidadeTecnica){
-
-    // }
-
-  }
-  function filterArea(ev){
-    setArea(ev.target.value)
-    if(area){
-      setProfiles(profiles.filter((profile)=>area == profile.area))
+    
+    if(habilidadeTecnica){
+      res = res.filter((r)=>r.habilidadesTecnicas.includes(habilidadeTecnica))
     }
-    console.log(area)
-  }
 
-  function filterCidade(ev){
-    setCidade(ev.target.value)
-    if(!cidade){
-      setProfiles(profiles.filter((profile)=>cidade == profile.localizacao))
-    }
-  }
+    setProfiles(res)
+  },[area,cidade,habilidadeTecnica])
   
   return(
     <div>
       {/* Área */}
-      <select onChange={(ev)=>filterArea(ev)}>
+      <select onChange={(ev)=>setArea(ev.target.value)}>
         <option value="" >Área</option>
         {filters.area.map((area)=>(
           // onClick não funciona bem em option, é melhor usar onChange em select
@@ -53,7 +38,7 @@ export default function Filter({database, profiles, setProfiles, filters}){
       </select>
 
       {/* cidade */}
-      <select onChange={(ev)=>filterCidade(ev)}>
+      <select onChange={(ev)=>setCidade(ev.target.value)}>
         <option value="" >Cidade</option>
         {filters.cidade.map((cidade)=>(
           <option value={cidade}>{cidade}</option>
@@ -61,7 +46,7 @@ export default function Filter({database, profiles, setProfiles, filters}){
       </select>
 
       {/* tecnologia */}
-      <select>
+      <select onChange={(ev)=>setHabilidadeTecnica(ev.target.value)}>
         <option value="" >Tecnologia</option>
         {filters.tecnologia.map((tecnologia)=>(
           <option value={tecnologia}>{tecnologia}</option>

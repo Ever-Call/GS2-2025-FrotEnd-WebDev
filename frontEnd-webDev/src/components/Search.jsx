@@ -30,6 +30,7 @@ export default function Search({database, setProfiles}){
         onChange={(ev)=>setSearchContent(ev.target.value)}
       />
       <div onClick={handleSearch}>Buscar</div>
+      
     </div>
   )
 }
