@@ -8,7 +8,7 @@ export default function ProfileCard({profissional}){
 
   return(
 		<>
-			<div className="bg-gray-300 rounded-2xl p-4" onClick={()=> setModalIsOpen(true)}>
+			<div className="bg-gray-300 rounded-2xl p-4 cursor-pointer" onClick={()=> setModalIsOpen(true)}>
 
 				<div className="flex relative">
 					{/* Imagem */}

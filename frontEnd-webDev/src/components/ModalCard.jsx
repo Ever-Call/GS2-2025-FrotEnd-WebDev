@@ -6,7 +6,7 @@ export default function ModalCard({profissional, functions}){
   const {foto, nome, localizacao, cargo, area, formacao, resumo, 
           habilidadesTecnicas, softskills, experiencias, areaInteresses, 
           projetos, certificacoes} = profissional
-  const {rank, setRank, modalIsOpen, setModalIsOpen} = functions
+  const {rank, setRank, setModalIsOpen} = functions
   
   const [chatModalIsOpen, setChatModalIsOpen] = useState(false)
 
@@ -21,7 +21,7 @@ export default function ModalCard({profissional, functions}){
   }, [])
   
   return(
-    <div className="absolute w-full h-full z-10 bg-black/70 inset-0 flex justify-center items-center">
+    <div className="fixed w-full h-full z-10 bg-black/70 inset-0 flex justify-center items-center">
       <div className="relative p-4 bg-gray-100 max-w-7xl">
         {/* Fecha o ProfileCard */}
           <div className="text-red-500 absolute top-0 right-0" onClick={()=>setModalIsOpen(false)}>FECHAR</div>
