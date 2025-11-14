@@ -3,7 +3,7 @@ import ChatModal from "./ChatModal"
 
 // profissional = {foto, nome, localização, cargo, area, formação, resumo, habilidadesTecnicas, softskills, experinencias, areaInteresses}
 export default function ModalCard({profissional, functions}){
-  const {foto, nome, localizacao, cargo, area, formacao, resumo, 
+  const {id, foto, nome, localizacao, cargo, area, formacao, resumo, 
           habilidadesTecnicas, softskills, experiencias, areaInteresses, 
           projetos, certificacoes} = profissional
   const {rank, setRank, setModalIsOpen} = functions
@@ -21,7 +21,7 @@ export default function ModalCard({profissional, functions}){
   }, [])
   
   return(
-    <div className="fixed w-full h-full z-10 bg-black/60 backdrop-blur-sm inset-0 flex justify-center items-center">
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-2 flex items-center justify-center p-4 overflow-y-auto">
       <div className="relative p-4 bg-gray-100 max-w-7xl">
         {/* Fecha o ProfileCard */}
           <div className="text-red-500 absolute top-0 right-0" onClick={()=>setModalIsOpen(false)}>FECHAR</div>
@@ -87,7 +87,7 @@ export default function ModalCard({profissional, functions}){
             <button onClick={()=>setRank(rank+1)}>Recomendar</button>
           </div>
 
-          {chatModalIsOpen && <ChatModal setChatModalIsOpen={setChatModalIsOpen} nome={nome} />}
+          {chatModalIsOpen && <ChatModal setChatModalIsOpen={setChatModalIsOpen} nome={nome} chat={chat} setChat={setChat} id={id}/>}
       </div>
     </div>
   )

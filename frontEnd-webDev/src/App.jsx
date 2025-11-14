@@ -3,13 +3,12 @@ import { useState } from 'react'
 import ProfilesSection from './components/ProfilesSection'
 import Search from './components/Search'
 import Filter from './components/Filter'
+import ThemeToggle from './components/ThemeToggle'
 // api interessante: https://randomuser.me/api/?results=60
 export default function App() {
   const database = perfis
   const [profiles, setProfiles] = useState(database)
-  const [chat, setChat] = useState({})
-
-  setChat()
+  const [chat, setChat] = useState(database.map((data)=>data.nome))
 
   const filters ={
     area:[],
@@ -41,10 +40,44 @@ export default function App() {
   }
 
   return (
-    <div className='mx-auto max-w-7xl min-h-screen'>
-      <Search database={database} profiles={profiles} setProfiles={setProfiles} />
+    <div className='min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors'>
+
+      <header className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-40 transition-colors">
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">ConnectPro</h1>
+            </div>
+            
+            {/* Search */}
+            <div className="flex-1 max-w-md mx-4">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5"
+                  database={database} profiles={profiles} setProfiles={setProfiles}
+                />
+              </div>
+            </div>
+
+            {/* Theme Toggle */}
+            <ThemeToggle/>
+          </div>
+        </div>
+      </header>
+
+      {/* Main content */}
+      <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* Filtros */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6 transition-colors">
+          <Filter database={database} profiles={profiles} setProfiles={setProfiles} filters={filters}/>
+        </div>
+
+        {/* Profiles grid */}
+        <ProfilesSection profiles={profiles} setProfiles={setProfiles} setChat={setChat} chat={chat}/>
+      </main>
+
+      {/* <Search database={database} profiles={profiles} setProfiles={setProfiles} />
       <Filter database={database} profiles={profiles} setProfiles={setProfiles} filters={filters}/>
-      <ProfilesSection profiles={profiles} setProfiles={setProfiles}/>
+      <ProfilesSection profiles={profiles} setProfiles={setProfiles} setChat={setChat} chat={chat}/> */}
     </div>
   )
 }

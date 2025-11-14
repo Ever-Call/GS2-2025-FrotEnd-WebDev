@@ -1,3 +1,4 @@
+import { FilterIcon } from "lucide-react"
 import { useEffect, useState } from "react"
 // filtro: área, cidade ou tecnologia -> area, localizacao, habilidadesTecnicas[index]
 
@@ -27,7 +28,11 @@ export default function Filter({database, profiles, setProfiles, filters}){
   },[area,cidade,habilidadeTecnica])
   
   return(
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="flex items-center gap-2 mb-3">
+        <FilterIcon className="w-5 h-5 text-gray-600 dark:text-gray-400" />
+        <h2 className="font-semibold text-gray-900 dark:text-white">Filtros</h2>
+      </div>
       {/* Área */}
       <select onChange={(ev)=>setArea(ev.target.value)}>
         <option value="" >Área</option>
