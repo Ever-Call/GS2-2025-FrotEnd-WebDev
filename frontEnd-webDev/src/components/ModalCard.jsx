@@ -177,21 +177,13 @@ export default function ModalCard({profissional, functions, chat, setChat}){
               px-4 py-2 rounded-full text-sm font-semibold transition-colors
               ${clicked ? "bg-blue-600 text-white opacity-90 hover:bg-blue-600 dark:hover:bg-blue-600" : ""}`}
             >
+              {clicked? "Recomendado" : "Recomendar"}
               <ThumbsUp className="w-4 h-4" />
             </button>
           </div>
         </div>
-        
 
-        {/* <div>
-          <p>{rank}</p>
-          <button onClick={()=> setChatModalIsOpen(true)}>Enviar mensagem</button>
-          <button onClick={()=>setRank(rank+1)}>Recomendar</button>
-        </div> */}
-
-        
-            
-          {chatModalIsOpen && <ChatModal setChatModalIsOpen={setChatModalIsOpen} nome={nome} chat={chat} setChat={setChat} id={id}/>}
+        {chatModalIsOpen && <ChatModal setChatModalIsOpen={setChatModalIsOpen} nome={nome} chat={chat} setChat={setChat} id={id}/>}
       </div>
     </div>
   )
