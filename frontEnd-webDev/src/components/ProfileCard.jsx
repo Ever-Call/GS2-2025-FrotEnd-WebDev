@@ -3,7 +3,7 @@ import ModalCard from "./ModalCard"
 import { ThumbsUp } from "lucide-react"
 
 export default function ProfileCard({profissional, setChat, chat}){
-	const {foto, nome, cargo, softSkills}= profissional
+	const {nome, cargo, softSkills}= profissional
   const [rank, setRank] = useState(()=>Math.floor(Math.random()*100))
 	const [modalIsOpen, setModalIsOpen] = useState(false) 
 	const initials = nome.slice(0, 2)
@@ -34,7 +34,7 @@ export default function ProfileCard({profissional, setChat, chat}){
 						</h3>
 						<p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{cargo}</p>
 						<div className="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3">
-							{softSkills}
+							{softSkills.join(' | ')}
 						</div>
 					</div>
 				</div>
