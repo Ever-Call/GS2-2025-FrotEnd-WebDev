@@ -1,9 +1,10 @@
 import perfis from './models/perfis.json'
 import { useState } from 'react'
 import ProfilesSection from './components/ProfilesSection'
-import Search from './components/Search'
+import Search from './components/SearchComponent'
 import Filter from './components/Filter'
 import ThemeToggle from './components/ThemeToggle'
+import SearchComponent from './components/SearchComponent'
 // api interessante: https://randomuser.me/api/?results=60
 export default function App() {
   const database = perfis
@@ -45,22 +46,26 @@ export default function App() {
 
       <header className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-1 transition-colors">
         <div className="max-w-7xl mx-auto px-4 py-3">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+          <div className="grid grid-cols-2 grid-rows-2 md:flex md:items-center md:justify-around">
+            <div className='col-span-1'>
               <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">ConnectPro</h1>
             </div>
             
             {/* Search */}
-            <div className="flex-1 max-w-md mx-4">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5"
-                  database={database} profiles={profiles} setProfiles={setProfiles} setSearchContent={setSearchContent} searchContent={searchContent}
+            <div className="md:w-md col-span-2 row-start-2">
+              <div>
+                <SearchComponent 
+                  database={database} profiles={profiles}
+                  setProfiles={setProfiles} setSearchContent={setSearchContent} 
+                  searchContent={searchContent}
                 />
               </div>
             </div>
 
             {/* Theme Toggle */}
-            <ThemeToggle/>
+            <div className='col-span-1 text-end'>
+              <ThemeToggle/>
+            </div>
           </div>
         </div>
       </header>
@@ -75,10 +80,6 @@ export default function App() {
         {/* Profiles grid */}
         <ProfilesSection profiles={profiles} setProfiles={setProfiles} setChat={setChat} chat={chat}/>
       </main>
-
-      {/* <Search database={database} profiles={profiles} setProfiles={setProfiles} />
-      <Filter database={database} profiles={profiles} setProfiles={setProfiles} filters={filters}/>
-      <ProfilesSection profiles={profiles} setProfiles={setProfiles} setChat={setChat} chat={chat}/> */}
     </div>
   )
 }

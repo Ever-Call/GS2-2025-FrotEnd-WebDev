@@ -2,7 +2,7 @@ import { FilterIcon } from "lucide-react"
 import { useEffect, useState } from "react"
 // filtro: área, cidade ou tecnologia -> area, localizacao, habilidadesTecnicas[index]
 
-export default function Filter({database, profiles, setProfiles, filters}){
+export default function Filter({database, profiles, setProfiles, filters, setSearchContent}){
   const [area,setArea]= useState('')
   const [cidade, setCidade] = useState('')
   const [habilidadeTecnica, setHabilidadeTecnica] = useState('')
@@ -30,6 +30,7 @@ export default function Filter({database, profiles, setProfiles, filters}){
     setArea("")
     setCidade("")
     setHabilidadeTecnica("")
+    setSearchContent("")
     setProfiles(database)
   }
   
@@ -53,7 +54,7 @@ export default function Filter({database, profiles, setProfiles, filters}){
         <select onChange={(ev)=>setCidade(ev.target.value)} value={cidade} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="" >Todas as cidades</option>
           {filters.cidade.map((cidade)=>(
-            <option value={cidade}>{cidade}</option>
+            <option key={cidade} value={cidade}>{cidade}</option>
           ))}
         </select>
 
@@ -61,7 +62,7 @@ export default function Filter({database, profiles, setProfiles, filters}){
         <select onChange={(ev)=>setHabilidadeTecnica(ev.target.value)} value={habilidadeTecnica} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="" >Todas as tecnologias</option>
           {filters.tecnologia.map((tecnologia)=>(
-            <option value={tecnologia}>{tecnologia}</option>
+            <option key={tecnologia} value={tecnologia}>{tecnologia}</option>
           ))}
         </select>
 
