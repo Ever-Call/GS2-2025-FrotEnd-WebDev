@@ -8,7 +8,8 @@ import ThemeToggle from './components/ThemeToggle'
 export default function App() {
   const database = perfis
   const [profiles, setProfiles] = useState(database)
-  const [chat, setChat] = useState(database.map((data)=>data.nome))
+  const [chat, setChat] = useState({})
+  const [searchContent, setSearchContent] = useState('')
 
   const filters ={
     area:[],
@@ -42,7 +43,7 @@ export default function App() {
   return (
     <div className='min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors'>
 
-      <header className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-40 transition-colors">
+      <header className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-1 transition-colors">
         <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -53,7 +54,7 @@ export default function App() {
             <div className="flex-1 max-w-md mx-4">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5"
-                  database={database} profiles={profiles} setProfiles={setProfiles}
+                  database={database} profiles={profiles} setProfiles={setProfiles} setSearchContent={setSearchContent} searchContent={searchContent}
                 />
               </div>
             </div>
@@ -68,7 +69,7 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 py-6">
         {/* Filtros */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6 transition-colors">
-          <Filter database={database} profiles={profiles} setProfiles={setProfiles} filters={filters}/>
+          <Filter database={database} profiles={profiles} setProfiles={setProfiles} filters={filters} setSearchContent={setSearchContent}/>
         </div>
 
         {/* Profiles grid */}
