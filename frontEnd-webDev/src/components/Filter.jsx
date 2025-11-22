@@ -42,7 +42,7 @@ export default function Filter({database, profiles, setProfiles, filters, setSea
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Área */}
-        <select onChange={(ev)=>setArea(ev.target.value)} value={area} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select onChange={(ev)=>setArea(ev.target.value)} value={area} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer">
           <option value="" >Todas as áreas</option>
           {filters.area.map((area)=>(
             // onClick não funciona bem em option, é melhor usar onChange em select
@@ -51,7 +51,7 @@ export default function Filter({database, profiles, setProfiles, filters, setSea
         </select>
 
         {/* cidade */}
-        <select onChange={(ev)=>setCidade(ev.target.value)} value={cidade} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select onChange={(ev)=>setCidade(ev.target.value)} value={cidade} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer">
           <option value="" >Todas as cidades</option>
           {filters.cidade.map((cidade)=>(
             <option key={cidade} value={cidade}>{cidade}</option>
@@ -59,7 +59,7 @@ export default function Filter({database, profiles, setProfiles, filters, setSea
         </select>
 
         {/* tecnologia */}
-        <select onChange={(ev)=>setHabilidadeTecnica(ev.target.value)} value={habilidadeTecnica} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select onChange={(ev)=>setHabilidadeTecnica(ev.target.value)} value={habilidadeTecnica} className="border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer">
           <option value="" >Todas as tecnologias</option>
           {filters.tecnologia.map((tecnologia)=>(
             <option key={tecnologia} value={tecnologia}>{tecnologia}</option>
@@ -71,7 +71,7 @@ export default function Filter({database, profiles, setProfiles, filters, setSea
       <div className="flex justify-center mt-3 ">
         <button
               onClick={reset}
-              className="border w-full border-gray-300 dark:border-gray-600 dark:text-white rounded-lg px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              className="border w-full border-gray-300 dark:border-gray-600 dark:text-white rounded-lg px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors  cursor-pointer"
             >
               Limpar filtros
         </button>

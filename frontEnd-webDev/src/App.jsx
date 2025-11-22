@@ -1,7 +1,6 @@
 import perfis from './models/perfis.json'
 import { useState } from 'react'
 import ProfilesSection from './components/ProfilesSection'
-import Search from './components/SearchComponent'
 import Filter from './components/Filter'
 import ThemeToggle from './components/ThemeToggle'
 import SearchComponent from './components/SearchComponent'

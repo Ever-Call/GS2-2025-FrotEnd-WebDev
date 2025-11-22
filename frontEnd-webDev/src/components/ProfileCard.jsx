@@ -10,7 +10,7 @@ export default function ProfileCard({profissional, setChat, chat}){
 
   return(
 		<>
-			<div className="bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition-shadow overflow-hidden" onClick={()=> setModalIsOpen(true)}>
+			<div className="bg-white cursor-pointer dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition-shadow overflow-hidden" onClick={()=> setModalIsOpen(true)}>
 				{/* Header com banner */}
       	<div className="h-16 bg-linear-to-r from-blue-500 to-blue-600"></div>
 

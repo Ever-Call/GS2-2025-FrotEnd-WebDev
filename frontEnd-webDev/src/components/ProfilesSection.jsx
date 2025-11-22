@@ -1,6 +1,6 @@
 import ProfileCard from './ProfileCard'
 
-export default function ProfilesSection({profiles, setProfiles, chat,  setChat}){
+export default function ProfilesSection({profiles, chat,  setChat}){
 
   if(profiles.length==0){
     return(

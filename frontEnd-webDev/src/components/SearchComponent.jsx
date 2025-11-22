@@ -28,7 +28,7 @@ export default function SearchComponent({database, setProfiles, searchContent, s
         onChange={(ev)=>setSearchContent(ev.target.value)}
         className="w-full p-2 border border-gray-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
-      <button onClick={handleSearch} className='border rounded-full p-2 border-gray-500 text-gray-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white'>
+      <button onClick={handleSearch} className='border rounded-full p-2 border-gray-500 text-gray-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white cursor-pointer'>
         <Search/>
       </button>
     </div>

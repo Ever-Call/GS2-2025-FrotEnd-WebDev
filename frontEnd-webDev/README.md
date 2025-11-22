@@ -1,16 +1,74 @@
-# React + Vite
+# ConnectPro - Plataforma de Conexão Profissional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👥 Integrantes do Grupo
 
-Currently, two official plugins are available:
+* **André Mateus Yoshimori** – RM: 563310
+* **Ever Callisaya Amaru** – RM: 563971
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📋 Resumo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O **ConnectPro** é uma plataforma web desenvolvida para conectar profissionais de diversas áreas, facilitando o networking e a busca por talentos qualificados. O projeto foi criado como parte da **Global Solution 2025**, com foco no tema **"O Futuro do Trabalho"**.
 
-## Expanding the ESLint configuration
+A aplicação permite aos usuários:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Visualizar perfis profissionais com informações completas (experiências, formação, hard skills e soft skills)
+* Filtrar profissionais por **área de atuação**, **cidade** e **tecnologias**
+* Buscar profissionais pelo nome
+* Interagir por meio de um **sistema de chat em tempo real**
+* Recomendar profissionais com base em um **ranking inteligente**
+* Alternar entre **tema claro** e **tema escuro**
+---
+
+## 🔐 Usuários e Senhas
+
+Este projeto **não possui sistema de autenticação**.
+Todos os recursos estão disponíveis **publicamente**, sem necessidade de login.
+
+---
+
+## 🚀 Instalação do Projeto
+
+### **Pré-requisitos**
+
+* Node.js
+* npm
+
+### **Passo a Passo**
+
+1. Navegue até o diretório do projeto:
+
+   ```bash
+   cd frontEnd-webDev
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse a aplicação pelo navegador:
+
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## 🔗 Link da Publicação no LinkedIn
+
+[Publicação sobre o projeto no](https://www.linkedin.com/posts/ever-callisaya-67a908274_ol%C3%A1-rede-venho-aqui-apresentar-meu-projeto-activity-7397812414324322305-UbLr)
+
+---
+## 🔗 Link do deploy no vercel
+Deploy: https://connectpro-xi.vercel.app
+
+## 📄 Fim do Documento

@@ -37,7 +37,7 @@ export default function ModalCard({profissional, functions, chat, setChat}){
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">Perfil Profissional</h2>
           <button 
             onClick={()=>setModalIsOpen(false)}
-            className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+            className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors cursor-pointer"
           >
             <X className="w-6 h-6" />
           </button>
@@ -163,7 +163,7 @@ export default function ModalCard({profissional, functions, chat, setChat}){
           <div className="flex gap-2">
             <button 
               onClick={() => setChatModalIsOpen(true)}
-              className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors"
+              className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors cursor-pointer"
             >
               <MessageCircle className="w-4 h-4" />
               Mensagem
@@ -175,7 +175,7 @@ export default function ModalCard({profissional, functions, chat, setChat}){
               border border-blue-600
               text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-400
               px-4 py-2 rounded-full text-sm font-semibold transition-colors
-              ${clicked ? "bg-blue-600 text-white opacity-90 hover:bg-blue-600 dark:hover:bg-blue-600" : ""}`}
+              ${clicked ? "bg-blue-600 text-white opacity-90 hover:bg-blue-600 dark:hover:bg-blue-600" : " cursor-pointer"}`}
             >
               {clicked? "Recomendado" : "Recomendar"}
               <ThumbsUp className="w-4 h-4" />
